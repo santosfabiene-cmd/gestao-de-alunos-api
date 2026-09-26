@@ -1,0 +1,15 @@
+{
+  "novoAluno": {
+    "nome": "Aluno Teste Automatizado",
+    "email": "aluno.automatizado@teste.com",
+    "matricula": "2026999",
+    "senha": "123456"
+  },
+  "trabalho": {
+    "disciplinaId": "disciplina-matematica",
+    "titulo": "Trabalho Automatizado - Mocha"
+  },
+  "loginInvalido": {
+    "senha": "senha-incorreta"
+  }
+}
