@@ -3,8 +3,11 @@ name: Testes de API
 on:
   push:
     branches: [main]
+
   pull_request:
     branches: [main]
+
+  workflow_dispatch:
 
 jobs:
   test:
@@ -38,3 +41,5 @@ jobs:
         run: npm test
         env:
           MONGODB_URI: mongodb://127.0.0.1:27017/gestao-de-alunos-test
+          ADMIN_EMAIL: admin@escola.com
+          ADMIN_PASSWORD: admin123
